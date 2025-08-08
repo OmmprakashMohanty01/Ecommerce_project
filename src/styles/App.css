@@ -1,0 +1,13 @@
+/* You can add any other global, non-utility styles here */
+
+.title::after {
+  content: '';
+  background: orangered;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
